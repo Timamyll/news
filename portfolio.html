@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>АБИ - Сложные веб-сервисы</title>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+
+  <div class="page page-portfolio">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+
+          <div class="header__col">
+            <button class="burger-btn"><span></span></button>
+
+
+            <a href="#" class="header__logo logo">
+              <img class="logo-white" src="img/header-logo.png" alt="">
+              <img class="logo-dark" src="img/header-logo-dark.png" alt="">
+            </a>
+
+            <label class="header__theme">
+              <img class="header__theme-moon" src="img/icons/moon.svg" alt="">
+              <img class="header__theme-sun" src="img/icons/sun.svg" alt="">
+              <input type="checkbox">
+              <span></span>
+            </label>
+          </div>
+
+
+          <div class="header__col">
+            <nav class="header__menu">
+              <button class="burger-close"><img src="img/icons/tab-close.svg" alt=""></button>
+              <ul class="header__menu-list">
+                <li><a href="index.html" class="header__menu-link">Главная</a></li>
+                <li><a href="about.html" class="header__menu-link">О нас</a></li>
+
+                <li class="header__submenu">
+                  <a href="single-service.html" class="header__menu-link">Услуги и цены</a>
+                  <span class="header__menu-icon"><img src="img/icons/arrow-down.svg" alt=""></span>
+                  <ul class="header__submenu-list">
+                    <li><a href="#" class="header__submenu-link">Платформы онлайн обучения</a></li>
+                    <li><a href="#" class="header__submenu-link">B2B/B2C платформы</a></li>
+                    <li><a href="#" class="header__submenu-link">Платформы онлайн обучения</a></li>
+                    <li><a href="#" class="header__submenu-link">B2B/B2C платформы</a></li>
+                    <li><a href="#" class="header__submenu-link">B2B/B2C платформы</a></li>
+                    <li><a href="#" class="header__submenu-link">B2B/B2C платформы</a></li>
+                    <li><a href="#" class="header__submenu-link">B2B/B2C платформы</a></li>
+                    <li><a href="#" class="header__submenu-link">B2B/B2C платформы</a></li>
+                    <li><a href="#" class="header__submenu-link">B2B/B2C платформы</a></li>
+                    <li><a href="#" class="header__submenu-link">B2B/B2C платформы</a></li>
+                    <li><a href="#" class="header__submenu-link">B2B/B2C платформы</a></li>
+                    <li><a href="#" class="header__submenu-link">B2B/B2C платформы</a></li>
+                    <li><a href="#" class="header__submenu-link">B2B/B2C платформы</a></li>
+                    <li><a href="#" class="header__submenu-link">Платформы онлайн обучения</a></li>
+                    <li><a href="#" class="header__submenu-link">B2B/B2C платформы</a></li>
+                    <li><a href="#" class="header__submenu-link">Платформы онлайн обучения</a></li>
+
+                  </ul>
+                </li>
+
+                <li><a href="portfolio.html" class="header__menu-link">Портфолио</a></li>
+                <li><a href="blog.html" class="header__menu-link">Блог</a></li>
+                <li><a href="contacts.html" class="header__menu-link">Контакты</a></li>
+              </ul>
+            </nav>
+
+            <div class="header__info">
+              <a href="#" class="header__info-text _icon-phone">+7 (962) 684-55-07</a>
+              <a href="#" class="header__info-text _icon-address">Санкт-Петербург</a>
+              <a href="#" class="header__info-text _icon-phone">+7 (921) 915-32-65</a>
+
+
+              <div class="header__info-language js-dropdown">
+                <span class="dropdown__current">ru</span>
+                <div class="dropdown__list">
+                  <label class="dropdown__list-item">
+                    <input type="radio" name="header-language" checked>
+                    <span>ru</span>
+                  </label>
+                  <label class="dropdown__list-item">
+                    <input type="radio" name="header-language">
+                    <span>en</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <a href="#" class="header__btn" data-modal-link="request">Оставить заявку</a>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <div class="bottom-menu">
+      <ul class="bottom-menu__list">
+        <li><a href="#" class="bottom-menu__link"><img src="img/icons/menu-icon-service.svg" alt="">Услуги</a></li>
+        <li>
+          <a href="#" class="bottom-menu__link btn-hexagon">
+            <div class="btn-hexagon__icon">
+              <span class="_icon-hexagon _icon-1"></span>
+              <span class="_icon-hexagon _icon-2"></span>
+              <span class="_icon-hexagon _icon-3"><img src="img/icons/calc-icon.svg" alt=""></span>
+            </div>
+            Рассчитать стоимость
+          </a>
+        </li>
+        <li><a href="#" class="bottom-menu__link"><img src="img/icons/menu-icon-portfolio.svg" alt="">Портфолио</a></li>
+      </ul>
+    </div>
+
+    <main class="main">
+
+      <section class="breadcrumbs">
+        <div class="container">
+          <div class="breadcrumbs__inner">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item"><a href="index.html">Главная</a></li>
+              <li class="breadcrumbs__item">Портфолио</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="portfolio">
+        <div class="container">
+          <div class="portfolio__inner">
+            <div class="portfolio__header">
+              <h1 class="portfolio__title title-lg">Отрасли/направления</h1>
+              <div class="porrfolio__box-title">
+                <ul class="box-title__item">
+                  <li class="box-title__link"><a href="#" class="box-title__items">LADA(ВАЗ)<span>(123)</span></a></li>
+                  <li class="box-title__link"><a href="#" class="box-title__items">LADA(ВАЗ)<span>(123)</span></a></li>
+                  <li class="box-title__link"><a href="#" class="box-title__items">LADA(ВАЗ)<span>(123)</span></a></li>
+                  <li class="box-title__link"><a href="#" class="box-title__items">LADA(ВАЗ)<span>(123)</span></a></li>
+                  <li class="box-title__link"><a href="#" class="box-title__items">LADA(ВАЗ)<span>(123)</span></a></li>
+                  <li class="box-title__link"><a href="#" class="box-title__items">LADA(ВАЗ)<span>(123)</span></a></li>
+                  <li class="box-title__link"><a href="#" class="box-title__items">LADA(ВАЗ)<span>(123)</span></a></li>
+                </ul>
+                <ul class="box-title__item">
+                  <li class="box-title__link"><a href="#" class="box-title__items">AUDI<span>(123)</span></a></li>
+                  <li class="box-title__link"><a href="#" class="box-title__items">AUDI<span>(123)</span></a></li>
+                  <li class="box-title__link"><a href="#" class="box-title__items">AUDI<span>(123)</span></a></li>
+                  <li class="box-title__link"><a href="#" class="box-title__items">AUDI<span>(123)</span></a></li>
+                  <li class="box-title__link"><a href="#" class="box-title__items">AUDI<span>(123)</span></a></li>
+                  <li class="box-title__link"><a href="#" class="box-title__items">AUDI<span>(123)</span></a></li>
+                  <li class="box-title__link"><a href="#" class="box-title__items">AUDI<span>(123)</span></a></li>
+                </ul>
+              </div>
+              <a href="#" class="portfolio__btn-filter btn-filter" data-modal-link="portfolio-filter">Фильтр
+                <span>
+                  <img class="icon-dark" src="img/icons/filter-icon.svg" alt="">
+                  <img class="icon-white" src="img/icons/filter-icon-invert.svg" alt="">
+                </span>
+              </a>
+
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+      <div class="portfolio__body">
+        <div class="portfolio__item _left">
+          <div class="portfolio__item_box-one">
+            <div class="container">
+              <div class="portfolio__item_box-one__body">
+                <div class="portfolio__item_box-one__items">
+                  <div class="box-one__body">
+                    <h2 class="box-one__title">Онлайн школа</h2>
+                    <p class="box-one__text">Международный проект биржи технологических стартапов для молодых
+                      предпринимателей Краснодарского края, при поддержке
+                      президента Российской Федерации Владимира Владимировича Путина.</p>
+                  </div>
+                  <div class="box-one__buttoms">
+                    <a href="#" class="box-one__link">Смотреть проект</a>
+                    <a href=""><img src="./img/icons/portfolia-right.svg" alt="portfolio-right"></a>
+                  </div>
+                  <div class="box-one__gals">
+                    <a href="#" class="gals__text">15 000</a>
+                    <a href=""><img src="./img/icons/gles-portfolia.png" alt="portfolio-right"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="my-div">
+              <div class="container">
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="portfolio__item_box-one__items">
+          <div class="portfolio__body">
+            <div class="portfolio__item _left">
+              <div class="portfolio__item_box-one twos">
+                <div class="my-div1">
+                  <div class="container">
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="portfolio__item_box-one__body">
+                    <div class="portfolio__item_box-one__items">
+                      <div class="box-one__body">
+                        <h2 class="box-one__title twos-title">Онлайн школа</h2>
+                        <p class="box-one__text twos-text">Международный проект биржи технологических стартапов для
+                          молодых
+                          предпринимателей Краснодарского края, при поддержке
+                          президента Российской Федерации Владимира Владимировича Путина.</p>
+                      </div>
+                      <div class="box-one__buttoms">
+                        <a href="#" class="box-one__link twos-link">Смотреть проект</a>
+                        <a href=""><img src="./img/icons/portfolia-right.svg" alt="portfolio-right"></a>
+                      </div>
+                      <div class="box-one__gals">
+                        <a href="#" class="gals__text twos-gals__text">15 000</a>
+                        <a href=""><img src="./img/icons/glas-twos.png" alt="portfolio-right"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="portfolio__item _left">
+
+          </div>
+
+
+        </div>
+
+
+    </main>
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+
+          <div class="footer__top">
+            <div class="footer__logo"><img src="img/logo.svg" alt=""></div>
+
+            <nav class="footer__menu">
+              <ul class="footer__menu-list">
+                <li><a href="#" class="footer__menu-link">Главная</a></li>
+                <li><a href="#" class="footer__menu-link">О нас</a></li>
+                <li><a href="#" class="footer__menu-link">Портфолио</a></li>
+                <li><a href="#" class="footer__menu-link">Блог</a></li>
+                <li><a href="#" class="footer__menu-link">Вакансии</a></li>
+              </ul>
+
+              <ul class="footer__menu-list _submenu">
+                <li><a href="#" class="footer__menu-link">Услуги и цены</a></li>
+                <li><a href="#" class="footer__menu-link">Платформы онлайн обучения</a></li>
+                <li><a href="#" class="footer__menu-link">B2B/B2C платформы</a></li>
+                <li><a href="#" class="footer__menu-link">Augmented Reality</a></li>
+                <li><a href="#" class="footer__menu-link">Финансовые платформы</a></li>
+                <li><a href="#" class="footer__menu-link">Интернет-сервисы</a></li>
+                <li><a href="#" class="footer__menu-link">eCommerce и Маркетплейсы</a></li>
+                <li><a href="#" class="footer__menu-link">Индивидуальные решения</a></li>
+                <li><a href="#" class="footer__menu-link">Мобильная разработка</a></li>
+              </ul>
+            </nav>
+
+
+            <div class="footer__contacts">
+              <span class="footer__contacts-label">Контакты</span>
+
+              <ul class="footer__contacts-list">
+                <li class="_icon-phone">+7 (921) 569-46-58</li>
+                <li class="_icon-phone">+7(812) 951-98-19</li>
+                <li class="_icon-message">sales@abibusiness.ru</li>
+              </ul>
+              <ul class="footer__contacts-list">
+                <li class="_icon-address">197046, Санкт-Петербург,
+                  Малая-Посадская дом 25, офис 3</li>
+
+                <li class="_icon-logo-circle"><img src="img/icons/logo-circle.svg" alt=""> ООО "АБИ Бизнес<br>Номер гос.
+                  аккредитации: АО-20220330-3961040192-3</li>
+                <li class="_icon-logo-circle"><img src="img/icons/logo-circle.svg" alt=""> ИП Пантелеева Наталья
+                  Григорьевна<br>ИНН , ОГРНИП</li>
+              </ul>
+            </div>
+
+            <div class="footer__award"><img src="img/award.png" alt=""></div>
+            <div class="footer__russoft"><img src="img/russoft.svg" alt=""></div>
+            <a href="#" class="footer__present"><img src="img/icons/icon-pdf.svg" alt=""> Приезентации компании</a>
+            <ul class="footer__socials">
+              <li><a href="#" class="footer__socials-icon"><img src="img/icons/vk.svg" alt=""></a></li>
+              <li><a href="#" class="footer__socials-icon"><img src="img/icons/telegram.svg" alt=""></a></li>
+              <li><a href="#" class="footer__socials-icon"><img src="img/icons/insta.svg" alt=""></a></li>
+            </ul>
+
+          </div>
+
+          <div class="footer__bg">
+            <span class="_icon-hexagon"></span>
+            <span class="_icon-hexagon"></span>
+          </div>
+
+          <div class="footer__bottom">
+            <p class="footer__text _copyright">© Все права защищены 2008-2022</p>
+            <p class="footer__text _politics"><a href="#">Политика конфиденциальности</a></p>
+            <p class="footer__text _digital">Digital <img src="" alt=""></p>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <div class="modal" id="request">
+    <div class="modal__dialog">
+      <div class="modal__header">
+        <a href="#" class="modal__close" data-modal-close><img src="img/icons/modal-close.svg" alt="close"></a>
+      </div>
+
+      <div class="modal__body">
+        <h2 class="request__title modal__title">Оставить заявку</h2>
+
+        <label class="request__input modal__input">
+          <span>Ваше имя:</span>
+          <input type="text" placeholder="Имя">
+        </label>
+        <label class="request__input modal__input">
+          <span>Номер телефона:</span>
+          <input type="tel" placeholder="Номер теелфона" data-tel-input>
+        </label>
+        <label class="request__input modal__input">
+          <span>Ваш E-mail:</span>
+          <input type="email" placeholder="E-mail">
+        </label>
+
+        <label class="request__input modal__input">
+          <span>Доп. инфо и комментарий</span>
+          <textarea placeholder="Доп. инфо."></textarea>
+        </label>
+
+
+        <a href="#" class="request__btn modal__btn">Отправить</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="modal" id="technical-task">
+    <div class="modal__dialog">
+      <div class="modal__header">
+        <a href="#" class="modal__close" data-modal-close><img src="img/icons/modal-close.svg" alt="close"></a>
+      </div>
+
+      <div class="modal__body">
+        <h2 class="technical-task__title modal__title">РАСЧИТАТЬ СТОИМОСТЬ ТЕХНИЧЕСКОГО ЗАДАНИЯ ПО ПРОЕКТУ</h2>
+
+
+        <div class="technical-task__content">
+          <div class="technical-task__col">
+            <label class="technical-task__input modal__input">
+              <span>Кол-во страниц главного сайта:</span>
+              <input type="number" placeholder="0" value="1">
+            </label>
+
+
+            <div class="technical-task__input modal__input">
+              <span>Нужен фирменный стиль?</span>
+              <div class="technical-task__input-row">
+                <label class="technical-task__radio radio">
+                  <input type="radio" name="style">
+                  <span>Да</span>
+                </label>
+                <label class="technical-task__radio radio">
+                  <input type="radio" name="style">
+                  <span>Нет</span>
+                </label>
+              </div>
+
+            </div>
+            <div class="technical-task__input modal__input">
+              <span>Нужен логотип?</span>
+              <div class="technical-task__input-row">
+                <label class="technical-task__radio radio">
+                  <input type="radio" name="logo">
+                  <span>Да</span>
+                </label>
+                <label class="technical-task__radio radio">
+                  <input type="radio" name="logo">
+                  <span>Нет</span>
+                </label>
+              </div>
+            </div>
+
+
+            <label class="technical-task__input modal__input">
+              <span>Кол-во личных кабинетов:</span>
+              <input type="number" placeholder="0" value="1">
+            </label>
+            <label class="technical-task__input modal__input">
+              <span>Перечислите названия личных кабинетов:</span>
+              <textarea placeholder="..."></textarea>
+            </label>
+            <label class="technical-task__input modal__input">
+              <span>Кол-во внешних интеграций со сторонними сервисами:</span>
+              <input type="number" placeholder="0" value="0">
+            </label>
+          </div>
+
+          <div class="technical-task__col">
+            <div class="technical-task__input modal__input">
+              <span>Требуется индивидуальный модуль?</span>
+              <div class="technical-task__input-row">
+                <label class="technical-task__radio radio">
+                  <input type="radio" name="module">
+                  <span>Да</span>
+                </label>
+                <label class="technical-task__radio radio">
+                  <input type="radio" name="module">
+                  <span>Нет</span>
+                </label>
+              </div>
+            </div>
+
+            <label class="technical-task__input modal__input">
+              <span>Описание модуля:</span>
+              <textarea placeholder="..."></textarea>
+            </label>
+            <div class="technical-task__input modal__input">
+              <span>Интеграция приема платежей:</span>
+              <div class="technical-task__input-row">
+                <label class="technical-task__radio radio">
+                  <input type="radio" name="pay">
+                  <span>Да</span>
+                </label>
+                <label class="technical-task__radio radio">
+                  <input type="radio" name="pay">
+                  <span>Нет</span>
+                </label>
+              </div>
+            </div>
+            <label class="technical-task__input modal__input">
+              <span>Дополнительный комментарий к проекту:</span>
+              <textarea placeholder="..."></textarea>
+            </label>
+
+            <div class="technical-task__price">
+              <p class="text-md">Примерная стоимость:</p>
+              <span>10 000</span>
+            </div>
+
+            <a href="#" class="technical-task__btn modal__btn">Оставить заявку</a>
+
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="modal" id="voice-assistant">
+    <div class="modal__dialog">
+      <div class="modal__header">
+        <a href="#" class="modal__close" data-modal-close><img src="img/icons/tab-close.svg" alt="close"></a>
+      </div>
+
+      <div class="modal__body">
+
+
+        <div class="voice-assistant__row _top">
+          <h2 class="voice-assistant__title">ГОЛОСОВОЙ <br> ПОМОЩНИК <span>АБИ</span></h2>
+          <p class="voice-assistant__text">На нашем сайте у вас есть возможность воспользоваться виртуальным голосовым
+            помощником</p>
+        </div>
+
+        <div class="voice-assistant__image-wrp">
+          <div class="voice-assistant__image"><img src="img/abi-assistant.png" alt=""></div>
+          <a href="#" class="voice-assistant__micro" onclick="speech()">
+            <img src="img/icons/microphone.svg" alt="">
+            <div class="voice-assistant__card">
+              <span class="voice-assistant__card-title">Нажмите на кнопку для записи команды</span>
+              <p class="voice-assistant__card-text"></p>
+            </div>
+          </a>
+        </div>
+
+        <div class="voice-assistant__row _bottom">
+          <label class="voice-assistant__input input">
+            <textarea placeholder="Ввести комментарий"></textarea>
+          </label>
+          <p class="voice-assistant__message">Также можете оставить свои контакты и мы вам перезвоним</p>
+          <a href="#" class="voice-assistant__btn btn">Отправить</a>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="modal" id="portfolio-filter">
+    <div class="modal__dialog portfolio__filter _icon-hexagon">
+
+
+      <div class="modal__body">
+
+        <button class="portfolio__filter-close" data-modal-close><img src="img/icons/tab-close.svg" alt=""></button>
+
+        <div class="portfolio__filter-list">
+          <label class="portfolio__filter-item checkbox">
+            <input type="checkbox">
+            <span class="_icon-check">Образование</span>
+          </label>
+          <label class="portfolio__filter-item checkbox">
+            <input type="checkbox">
+            <span class="_icon-check">Финансы и страхование</span>
+          </label>
+          <label class="portfolio__filter-item checkbox">
+            <input type="checkbox">
+            <span class="_icon-check">Розничная торговля</span>
+          </label>
+          <label class="portfolio__filter-item checkbox">
+            <input type="checkbox">
+            <span class="_icon-check">СМИ</span>
+          </label>
+          <label class="portfolio__filter-item checkbox">
+            <input type="checkbox">
+            <span class="_icon-check">Стартапы</span>
+          </label>
+          <label class="portfolio__filter-item checkbox">
+            <input type="checkbox">
+            <span class="_icon-check">Образование</span>
+          </label>
+          <label class="portfolio__filter-item checkbox">
+            <input type="checkbox">
+            <span class="_icon-check">Образование</span>
+          </label>
+          <label class="portfolio__filter-item checkbox">
+            <input type="checkbox">
+            <span class="_icon-check">Образование</span>
+          </label>
+          <label class="portfolio__filter-item checkbox">
+            <input type="checkbox">
+            <span class="_icon-check">Образование</span>
+          </label>
+          <label class="portfolio__filter-item checkbox">
+            <input type="checkbox">
+            <span class="_icon-check">Образование</span>
+          </label>
+          <label class="portfolio__filter-item checkbox">
+            <input type="checkbox">
+            <span class="_icon-check">Образование</span>
+          </label>
+          <label class="portfolio__filter-item checkbox">
+            <input type="checkbox">
+            <span class="_icon-check">Образование</span>
+          </label>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div class="modal" id="gratitude-image">
+    <div class="modal__dialog">
+      <div class="modal__header">
+        <a href="#" class="modal__close" data-modal-close><img src="img/icons/modal-close.svg" alt="close"></a>
+      </div>
+
+      <div class="modal__body">
+        <div class="gratitude-image"><img src="img/gratitude-item-image.jpg" alt=""></div>
+        <button class="gratitude-image__btn slider-btn _prev"><img src="img/icons/slider-btn-arrow.svg" alt=""></button>
+        <button class="gratitude-image__btn slider-btn _next"><img src="img/icons/slider-btn-arrow.svg" alt=""></button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.147.0/three.min.js"
+    integrity="sha512-GWXLkqxMENYgBdQvA/lTeOV+R2auhasgKQxjMTWBFt3Z6GJVZ9owiyAMOzz0Wt6J1ri8bf/g2kHJV0uvWpJTuw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <script src="./js/hover-effect.umd.js"></script>
+  <script src="./js/hover.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>
