@@ -40,6 +40,23 @@
   font-style: normal;
 }
 
+
+@font-face {
+  font-family: "Brother-1816";
+  font-display: swap;
+  src: url("../fonts/1986/Brother-1816-Medium-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brother-1816";
+  font-display: swap;
+  src: url("../fonts/1986/Brother-1816-Bold-Italic.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
 @font-face {
   font-family: icons;
   font-display: swap;
@@ -358,7 +375,7 @@ body._scroll-lock {
   font-family: 'Avenir Next Cyr';
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 18px;
   line-height: 130%;
   color: #1E1E1E;
 }
@@ -371,7 +388,7 @@ body._theme-dark .box-title__items {
   font-family: 'Avenir Next Cyr';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 130%;
   color: #C4C4C4;
 }
@@ -401,7 +418,11 @@ body._theme-dark .title-md {
   .box-title__item {
     flex-wrap: wrap;
     justify-content: unset;
-    gap: 10px;
+    gap: 30px;
+  }
+
+  .box-title__link {
+    gap: 29px;
   }
 }
 
@@ -457,12 +478,40 @@ body._theme-dark .portfolio__item_box-one {
 @media (max-width: 847px) {
   .portfolio__item_box-one {
     grid-template-columns: 1fr;
+
   }
 
 }
 
 .twos {
   background-color: #EFE9DD;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.twos__body {
+  padding: 150px 120px 60px 120px;
+}
+
+@media (max-width: 1200px) {
+  .twos__body {
+    padding: 51px 50px 60px 36px;
+  }
+}
+
+@media (max-width: 780px) {
+  .twos__body {
+    padding: 40px 20px 20px 20px;
+  }
+}
+
+@media (max-width: 847px) {
+  .twos {
+    grid-template-columns: 1fr;
+
+  }
+
 }
 
 body._theme-dark .twos {
@@ -471,16 +520,29 @@ body._theme-dark .twos {
 
 .portfolio__item_box-one__body {
   display: flex;
-  padding-left: 105px;
-  padding-right: 100px;
+  /* padding-left: 105px; */
+  /* padding-right: 100px; */
 }
 
-.portfolio__item_box-one__items {}
+@media (min-width: 1800px) {
+  .portfolio__item_box-one__itemss {
+    padding: 150px 120px 60px 120px;
+  }
+}
+
+@media (max-width: 1420px) {
+  .div_title {
+    right: 67px;
+  }
+
+  .div_title-two {
+    right: 48px;
+  }
+}
 
 .box-one__body {}
 
 .box-one__title {
-  font-family: 'Brother 1816';
   font-style: normal;
   font-weight: 700;
   font-size: 46px;
@@ -506,7 +568,6 @@ body._theme-dark .twos-title {
 
 
 .box-one__text {
-  font-family: 'Brother 1816';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -545,7 +606,15 @@ body._theme-dark .twos-text {
   display: flex;
   align-items: center;
   justify-content: end;
+  padding-bottom: 43px;
   padding-top: 68px;
+}
+
+@media (max-width: 800px) {
+  .box-one__buttoms {
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
 }
 
 .box-one__link {
@@ -599,6 +668,13 @@ body._theme-dark .twos-link {
   align-items: center;
 }
 
+@media (max-width: 850px) {
+  .box-one__gals {
+    padding-bottom: 20px;
+    padding-right: 7px;
+  }
+}
+
 .gals__text {
   font-family: 'Avenir Next Cyr';
   font-style: normal;
@@ -610,8 +686,6 @@ body._theme-dark .twos-link {
   display: flex;
 
 }
-
-
 
 .twos-gals__text {
   color: #000000;
@@ -643,72 +717,43 @@ body._theme-dark .twos-imgs {
 
 .img__grid-paralax {
   position: absolute;
-  width: 813px;
-  height: 634px;
+  width: 100%;
+  height: 50vmax;
 }
 
-@media (max-width: 425px) {
-  .img__grid-paralax {
-    width: 428px;
-  }
-}
 
 .img__grid-paralax-s {
-  /* position: absolute; */
-  width: 813px;
-  height: 634px;
+  position: absolute;
+  width: 100%;
+  height: 50vmax;
 }
 
-@media (max-width: 1351px) {
+@media (max-width: 1252px) {
+
+  .img__grid-paralax {
+    height: 54vmax;
+  }
+
+
   .img__grid-paralax-s {
-    width: 673px;
+    height: 54vmax;
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1054px) {
+
   .img__grid-paralax-s {
-    width: 547px;
+    height: 100%;
+  }
+
+  .img__grid-paralax {
+    height: 100%;
   }
 }
 
 @media (max-width: 847px) {
   .my-div1 {
     order: 1;
-  }
-
-  .img__grid-paralax-s {
-    width: 840px;
-    /* width: 100%; */
-  }
-}
-
-@media (max-width: 751px) {
-  .img__grid-paralax-s {
-    width: 673px;
-  }
-}
-
-@media (max-width: 656px) {
-  .img__grid-paralax-s {
-    width: 608px;
-  }
-}
-
-@media (max-width: 600px) {
-  .img__grid-paralax-s {
-    width: 541px;
-  }
-}
-
-@media (max-width: 541px) {
-  .img__grid-paralax-s {
-    width: 447px;
-  }
-}
-
-@media (max-width: 400px) {
-  .img__grid-paralax-s {
-    width: 357px;
   }
 }
 
@@ -722,7 +767,6 @@ body._theme-dark .twos-imgs {
 
 .div_title {
   position: absolute;
-  font-family: 'Brother 1816';
   font-style: normal;
   font-weight: 800;
   font-size: 80px;
@@ -734,21 +778,38 @@ body._theme-dark .twos-imgs {
   right: 32px;
 }
 
+@media (max-width: 2000px) {
+  .div_title {
+    right: 313px;
+  }
+}
+
+@media (max-width: 1420px) {
+  .div_title {
+    right: 169px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .div_title {
+    right: 90px;
+  }
+}
+
 .div_title-two {
   position: absolute;
-  font-family: 'Brother 1816';
   font-style: normal;
   font-weight: 800;
   font-size: 80px;
   line-height: 100%;
   color: #FFFFFF;
   z-index: 100;
-  top: 116px;
-  left: 123px;
+  top: 160px;
+  left: 265px;
 }
 
+
 .box-one__imgs {
-  font-family: 'Brother 1816';
   font-style: normal;
   font-weight: 800;
   font-size: 100px;
@@ -780,6 +841,67 @@ body._theme-dark .twos-imgs {
   .portfolio__item_box-one__body {
     padding-left: 0;
     padding-right: 0;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .div_title-two {
+    left: 46px;
+  }
+}
+
+@media (max-width: 1420px) {
+  .div_title-two {
+    left: 48px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .div_title-two {
+    left: 0;
+  }
+}
+
+@media (max-width: 763px) {
+  .div_title-two {
+    left: 181px;
+  }
+
+  .div_title {
+    right: 190px;
+  }
+}
+
+@media (max-width: 556px) {
+  .div_title-two {
+    left: 117px;
+  }
+
+  .div_title {
+    right: 76px;
+  }
+}
+
+@media (max-width: 473px) {
+  .div_title-two {
+    left: 28px;
+    font-size: 50px;
+  }
+
+  .div_title {
+    right: 47px;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .div_title-two {
+    left: 28px;
+  }
+
+  .div_title {
+    right: 114px;
   }
 }
 

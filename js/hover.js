@@ -15,5 +15,5 @@ new hoverEffect({
   speedIn: 1,
   image1: ".././img/icons/bg-portfolio1.png",
   image2: ".././img/icons/bg-portfolio1.png",
-  displacementImage: ".././img/dot.jpg",
+  displacementImage: ".././img/myDistortionImage.jpg",
 });
