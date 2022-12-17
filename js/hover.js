@@ -1,5 +1,5 @@
 new hoverEffect({
-  parent: document.querySelector(".my-div"),
+  parent: document.querySelector(".img__grid-paralax"),
   intensity1: 1,
   intensity2: 2,
   speedIn: 1,
@@ -9,7 +9,7 @@ new hoverEffect({
   displacementImage: ".././img/myDistortionImage.jpg",
 });
 new hoverEffect({
-  parent: document.querySelector(".my-div1"),
+  parent: document.querySelector(".img__grid-paralax-s"),
   intensity1: 1,
   intensity2: 2,
   speedIn: 1,
